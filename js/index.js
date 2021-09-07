@@ -320,8 +320,8 @@ function reveal() {
     "src",
     "https://www.youtube.com/embed/wHhVki_BKcU?controls=0&loop=1&autoplay=1"
   );
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
+  ifrm.style.width = `${w}px`;
+  ifrm.style.height = `${h}px`;
   ifrm.style.border = "none";
   document.querySelector("#video").appendChild(ifrm);
 }
